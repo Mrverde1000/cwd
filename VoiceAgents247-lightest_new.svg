@@ -3,38 +3,38 @@
 <svg width="100%" height="100%" viewBox="0 0 1931 887" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;">
     <g id="wave">
         <g id="wave-bars">
-            <rect x="9.0" y="328.0" width="54" height="337.3" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="69.0" y="293.3" width="54" height="342.0" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="129.0" y="268.9" width="54" height="336.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="189.0" y="240.3" width="54" height="334.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="249.0" y="208.7" width="54" height="335.2" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="309.0" y="182.8" width="54" height="389.6" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="369.0" y="110.9" width="54" height="510.4" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="429.0" y="112.2" width="54" height="545.6" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="489.0" y="181.1" width="54" height="522.3" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="549.0" y="222.8" width="54" height="520.1" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="609.0" y="256.6" width="54" height="524.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="669.0" y="270.9" width="54" height="575.4" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="729.0" y="264.4" width="54" height="545.5" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="789.0" y="227.9" width="54" height="504.9" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="849.0" y="169.1" width="54" height="511.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="909.0" y="141.1" width="54" height="489.6" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="969.0" y="108.1" width="54" height="490.1" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1029.0" y="47.3" width="54" height="510.2" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1089.0" y="32.5" width="54" height="526.4" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1149.0" y="82.9" width="54" height="531.4" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1209.0" y="115.2" width="54" height="608.6" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1269.0" y="146.7" width="54" height="623.9" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1329.0" y="194.2" width="54" height="646.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1389.0" y="208.6" width="54" height="637.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1449.0" y="237.2" width="54" height="568.5" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1509.0" y="259.9" width="54" height="515.7" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1569.0" y="270.8" width="54" height="485.0" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1629.0" y="281.4" width="54" height="434.3" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1689.0" y="291.3" width="54" height="406.6" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1749.0" y="332.9" width="54" height="317.9" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1809.0" y="308.3" width="54" height="284.5" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
-            <rect x="1869.0" y="307.7" width="54" height="282.0" rx="27.0" ry="27.0" style="fill:rgb(12,86,231);"/>
+            <rect x="9.0" y="328.0" width="54" height="337.3" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="69.0" y="293.3" width="54" height="342.0" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="129.0" y="268.9" width="54" height="336.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="189.0" y="240.3" width="54" height="334.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="249.0" y="208.7" width="54" height="335.2" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="309.0" y="182.8" width="54" height="389.6" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="369.0" y="110.9" width="54" height="510.4" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="429.0" y="112.2" width="54" height="545.6" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="489.0" y="181.1" width="54" height="522.3" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="549.0" y="222.8" width="54" height="520.1" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="609.0" y="256.6" width="54" height="524.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="669.0" y="270.9" width="54" height="575.4" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="729.0" y="264.4" width="54" height="545.5" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="789.0" y="227.9" width="54" height="504.9" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="849.0" y="169.1" width="54" height="511.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="909.0" y="141.1" width="54" height="489.6" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="969.0" y="108.1" width="54" height="490.1" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1029.0" y="47.3" width="54" height="510.2" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1089.0" y="32.5" width="54" height="526.4" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1149.0" y="82.9" width="54" height="531.4" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1209.0" y="115.2" width="54" height="608.6" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1269.0" y="146.7" width="54" height="623.9" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1329.0" y="194.2" width="54" height="646.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1389.0" y="208.6" width="54" height="637.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1449.0" y="237.2" width="54" height="568.5" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1509.0" y="259.9" width="54" height="515.7" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1569.0" y="270.8" width="54" height="485.0" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1629.0" y="281.4" width="54" height="434.3" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1689.0" y="291.3" width="54" height="406.6" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1749.0" y="332.9" width="54" height="317.9" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1809.0" y="308.3" width="54" height="284.5" rx="27.0" ry="27.0" style="fill:black;"/>
+            <rect x="1869.0" y="307.7" width="54" height="282.0" rx="27.0" ry="27.0" style="fill:black;"/>
         </g>
     </g>
     <g id="wordmark">
