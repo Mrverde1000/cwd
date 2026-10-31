@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Funeral Pictorial — Lantern</title>
+  <defs>
+    <radialGradient id="lg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFE9A8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#2B3350"/>
+  <circle cx="200" cy="170" r="120" fill="url(#lg)"/>
+  <!-- lantern -->
+  <g stroke="#F7F3EC" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M200 70 L 200 92"/>
+    <path d="M176 92 L 224 92"/>
+    <path d="M170 104 L 230 104 L 236 232 L 164 232 Z"/>
+    <path d="M160 232 L 240 232 L 232 252 L 168 252 Z"/>
+    <path d="M200 104 L 200 232" stroke-width="2" opacity="0.6"/>
+    <path d="M166 168 L 234 168" stroke-width="2" opacity="0.6"/>
+  </g>
+  <!-- photo inside lantern -->
+  <rect x="178" y="118" width="44" height="40" rx="2" fill="#C9A961" opacity="0.9"/>
+  <rect x="178" y="178" width="44" height="40" rx="2" fill="#C9A0A0" opacity="0.9"/>
+  <!-- flame glow dot -->
+  <circle cx="200" cy="168" r="10" fill="#FFF1C4"/>
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#F7F3EC" letter-spacing="1">Funeral Pictorial</text>
+  <text x="200" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#C9A961" letter-spacing="5">KEEPING THEIR LIGHT ALIVE</text>
+</svg>

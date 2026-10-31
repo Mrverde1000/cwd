@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Funeral Pictorial — Willow Badge</title>
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  <circle cx="200" cy="200" r="178" fill="#F3F0E8"/>
+  <circle cx="200" cy="200" r="178" fill="none" stroke="#1F2A44" stroke-width="4"/>
+  <circle cx="200" cy="200" r="166" fill="none" stroke="#C9A961" stroke-width="1.5"/>
+  <!-- curved text top -->
+  <defs>
+    <path id="arcTop" d="M70 200 A 130 130 0 0 1 330 200"/>
+    <path id="arcBot" d="M62 200 A 138 138 0 0 0 338 200"/>
+  </defs>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#1F2A44" letter-spacing="5">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">FUNERAL PICTORIAL</textPath>
+  </text>
+  <text font-family="Georgia, serif" font-size="12" fill="#8FA68E" letter-spacing="4">
+    <textPath href="#arcBot" startOffset="50%" text-anchor="middle">MEMORIAL SLIDESHOWS  •  TRIBUTE FILMS</textPath>
+  </text>
+  <!-- willow tree -->
+  <circle cx="200" cy="178" r="44" fill="#C9A961" opacity="0.16"/>
+  <g stroke="#8FA68E" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M200 152 C 168 142, 136 172, 134 236"/>
+    <path d="M200 152 C 176 138, 148 160, 146 244"/>
+    <path d="M200 152 C 186 136, 162 160, 158 250"/>
+    <path d="M200 152 C 194 140, 178 172, 174 254"/>
+    <path d="M200 152 C 198 160, 192 200, 192 256"/>
+    <path d="M200 152 C 206 140, 222 172, 226 254"/>
+    <path d="M200 152 C 214 136, 238 160, 242 250"/>
+    <path d="M200 152 C 224 138, 252 160, 254 244"/>
+    <path d="M200 152 C 232 142, 264 172, 266 236"/>
+  </g>
+  <g stroke="#1F2A44" stroke-linecap="round" fill="none">
+    <path d="M200 272 C 203 240, 201 200, 200 158" stroke-width="7"/>
+    <path d="M201 215 C 192 205, 184 196, 176 190" stroke-width="3.5"/>
+    <path d="M201 200 C 210 190, 218 182, 226 178" stroke-width="3.5"/>
+  </g>
+  <circle cx="200" cy="152" r="5" fill="#1F2A44"/>
+  <!-- ground / horizon -->
+  <path d="M110 272 Q 200 260 290 272" stroke="#C9A961" stroke-width="2" fill="none"/>
+</svg>

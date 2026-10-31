@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220">
+  <title>Funeral Pictorial — Infinity Film</title>
+  <rect width="640" height="220" fill="#FFFFFF"/>
+  <g transform="translate(20,40)">
+    <!-- infinity path, filmstrip style -->
+    <path id="inf" d="M80 70 C 80 30, 130 30, 150 70 C 170 110, 220 110, 220 70 C 220 30, 170 30, 150 70 C 130 110, 80 110, 80 70 Z" fill="none" stroke="#1F2A44" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M80 70 C 80 30, 130 30, 150 70 C 170 110, 220 110, 220 70 C 220 30, 170 30, 150 70 C 130 110, 80 110, 80 70 Z" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-dasharray="7 7" stroke-linejoin="round"/>
+    <path d="M80 70 C 80 30, 130 30, 150 70 C 170 110, 220 110, 220 70 C 220 30, 170 30, 150 70 C 130 110, 80 110, 80 70 Z" fill="none" stroke="#1F2A44" stroke-width="6" stroke-linejoin="round"/>
+    <!-- gold heart at the crossing -->
+    <path d="M150 62 C 146 54, 136 56, 138 64 C 140 70, 150 78, 150 78 C 150 78, 160 70, 162 64 C 164 56, 154 54, 150 62 Z" fill="#C9A961"/>
+  </g>
+  <text x="290" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#1F2A44">Funeral Pictorial</text>
+  <text x="292" y="140" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#7A8194" letter-spacing="4">MEMORIES THAT PLAY FOREVER</text>
+</svg>

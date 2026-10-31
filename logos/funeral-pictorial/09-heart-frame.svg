@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220">
+  <title>Funeral Pictorial — Heart Frame</title>
+  <rect width="640" height="220" fill="#FBF8F3"/>
+  <!-- photo card tilted -->
+  <g transform="translate(110,110) rotate(-8)">
+    <rect x="-62" y="-72" width="124" height="144" rx="4" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="2"/>
+    <!-- photo corners -->
+    <g fill="#1F2A44">
+      <path d="M-62 -72 L -40 -72 L -62 -50 Z"/><path d="M62 -72 L 40 -72 L 62 -50 Z"/>
+      <path d="M-62 72 L -40 72 L -62 50 Z"/><path d="M62 72 L 40 72 L 62 50 Z"/>
+    </g>
+    <!-- heart -->
+    <path d="M0 -18 C -12 -44, -50 -36, -44 -8 C -40 12, 0 44, 0 44 C 0 44, 40 12, 44 -8 C 50 -36, 12 -44, 0 -18 Z" fill="#C9A0A0"/>
+    <path d="M-20 -14 C -26 -24, -36 -22, -34 -12" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <text x="226" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#1F2A44">Funeral Pictorial</text>
+  <text x="228" y="134" font-family="Georgia, serif" font-size="13.5" fill="#B07C7C" letter-spacing="2.5" font-style="italic">photographs, music &amp; memories, woven together</text>
+</svg>

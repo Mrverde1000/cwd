@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200">
+  <title>Funeral Pictorial — Wordmark</title>
+  <rect width="640" height="200" fill="#1F2A44"/>
+  <text x="48" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#F7F3EC" letter-spacing="-1">Funeral P</text>
+  <!-- play triangle replaces the dot of the i -->
+  <text x="303" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#F7F3EC" letter-spacing="-1">ctorial</text>
+  <rect x="291" y="81" width="7" height="31" fill="#F7F3EC"/>
+  <rect x="287" y="109" width="15" height="3" fill="#F7F3EC"/>
+  <path d="M288 56 L 288 76 L 306 66 Z" fill="#C9A961"/>
+  <line x1="50" y1="134" x2="590" y2="134" stroke="#C9A961" stroke-width="1"/>
+  <text x="50" y="160" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9AA3B8" letter-spacing="6">MEMORIAL SLIDESHOW STUDIO</text>
+</svg>

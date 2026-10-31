@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Funeral Pictorial — Candle Filmstrip</title>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFE9A8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E8A33D"/>
+      <stop offset="100%" stop-color="#FFF0B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#1F2A44"/>
+  <circle cx="200" cy="96" r="70" fill="url(#glow)"/>
+  <!-- flame -->
+  <path d="M200 60 C 214 80, 220 96, 212 110 C 208 118, 192 118, 188 110 C 180 96, 186 80, 200 60 Z" fill="url(#flame)"/>
+  <path d="M200 86 C 206 96, 206 106, 200 110 C 194 106, 194 96, 200 86 Z" fill="#FFF9DD"/>
+  <!-- filmstrip as candle body -->
+  <rect x="166" y="118" width="68" height="160" rx="4" fill="#F7F3EC"/>
+  <g fill="#1F2A44">
+    <rect x="172" y="126" width="8" height="12" rx="1"/><rect x="172" y="146" width="8" height="12" rx="1"/><rect x="172" y="166" width="8" height="12" rx="1"/><rect x="172" y="186" width="8" height="12" rx="1"/><rect x="172" y="206" width="8" height="12" rx="1"/><rect x="172" y="226" width="8" height="12" rx="1"/><rect x="172" y="246" width="8" height="12" rx="1"/>
+    <rect x="220" y="126" width="8" height="12" rx="1"/><rect x="220" y="146" width="8" height="12" rx="1"/><rect x="220" y="166" width="8" height="12" rx="1"/><rect x="220" y="186" width="8" height="12" rx="1"/><rect x="220" y="206" width="8" height="12" rx="1"/><rect x="220" y="226" width="8" height="12" rx="1"/><rect x="220" y="246" width="8" height="12" rx="1"/>
+  </g>
+  <!-- frames -->
+  <rect x="186" y="132" width="28" height="34" rx="2" fill="#C9A961"/>
+  <rect x="186" y="176" width="28" height="34" rx="2" fill="#8FA68E"/>
+  <rect x="186" y="220" width="28" height="34" rx="2" fill="#C9A0A0"/>
+  <!-- base -->
+  <ellipse cx="200" cy="282" rx="52" ry="8" fill="#C9A961"/>
+  <text x="200" y="330" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F7F3EC" letter-spacing="2">Funeral Pictorial</text>
+  <text x="200" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#C9A961" letter-spacing="5">A LIFE, REMEMBERED IN LIGHT</text>
+</svg>

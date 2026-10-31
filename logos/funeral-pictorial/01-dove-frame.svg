@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200">
+  <title>Funeral Pictorial — Dove &amp; Frame</title>
+  <rect width="640" height="200" fill="#F7F3EC"/>
+  <!-- photo frame -->
+  <rect x="36" y="36" width="128" height="128" rx="6" fill="none" stroke="#1F2A44" stroke-width="5"/>
+  <rect x="50" y="50" width="100" height="100" rx="3" fill="none" stroke="#C9A961" stroke-width="2"/>
+  <!-- dove -->
+  <g fill="#1F2A44">
+    <path d="M62 122 C 72 102, 96 94, 120 98 C 127 91, 136 90, 142 96 L 153 99 L 142 103 C 139 113, 128 122, 112 124 C 96 126, 78 132, 62 122 Z"/>
+    <path d="M100 101 C 92 84, 100 66, 120 58 C 112 72, 114 86, 126 96 Z"/>
+    <path d="M66 120 C 56 114, 52 106, 56 100 L 76 112 Z"/>
+  </g>
+  <circle cx="137" cy="97" r="1.8" fill="#F7F3EC"/>
+  <!-- wordmark -->
+  <text x="200" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#1F2A44" letter-spacing="1">Funeral</text>
+  <text x="402" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-style="italic" fill="#C9A961">Pictorial</text>
+  <line x1="202" y1="124" x2="602" y2="124" stroke="#C9A961" stroke-width="1.5"/>
+  <text x="203" y="150" font-family="Georgia, serif" font-size="14" fill="#5B6476" letter-spacing="3.2">MEMORIAL SLIDESHOWS &amp; TRIBUTE FILMS</text>
+</svg>

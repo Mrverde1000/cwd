@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Funeral Pictorial — Open Album</title>
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  <!-- light rising from book -->
+  <defs>
+    <linearGradient id="ray" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#C9A961" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C9A961" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M200 182 L 150 60 L 250 60 Z" fill="url(#ray)"/>
+  <!-- pages -->
+  <path d="M90 186 C 130 170, 170 170, 200 186 L 200 258 C 170 242, 130 242, 90 258 Z" fill="#F7F3EC" stroke="#1F2A44" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M310 186 C 270 170, 230 170, 200 186 L 200 258 C 230 242, 270 242, 310 258 Z" fill="#F7F3EC" stroke="#1F2A44" stroke-width="4" stroke-linejoin="round"/>
+  <!-- photos on pages -->
+  <rect x="112" y="190" width="54" height="40" rx="2" fill="#8FA68E" transform="skewY(-6) translate(0,12)"/>
+  <rect x="236" y="178" width="54" height="40" rx="2" fill="#C9A0A0" transform="skewY(6) translate(0,-12)"/>
+  <!-- heart floating -->
+  <path d="M200 128 C 194 116, 180 118, 182 130 C 184 140, 200 152, 200 152 C 200 152, 216 140, 218 130 C 220 118, 206 116, 200 128 Z" fill="#C9A961"/>
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1F2A44">Funeral Pictorial</text>
+  <text x="200" y="340" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7A8194" letter-spacing="4">THEIR STORY, BEAUTIFULLY TOLD</text>
+</svg>
