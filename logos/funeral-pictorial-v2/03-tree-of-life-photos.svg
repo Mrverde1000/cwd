@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Funeral Pictorial — Tree of Life</title>
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  <circle cx="200" cy="170" r="128" fill="#F3F0E8" stroke="#1F2A44" stroke-width="3"/>
+  <!-- trunk & branches -->
+  <g stroke="#1F2A44" stroke-linecap="round" fill="none">
+    <path d="M200 266 C 202 240, 200 215, 198 190" stroke-width="9"/>
+    <path d="M198 190 C 184 184, 168 170, 160 150" stroke-width="5"/>
+    <path d="M198 190 C 214 182, 230 168, 240 148" stroke-width="5"/>
+    <path d="M199 192 C 200 170, 202 150, 204 130" stroke-width="5"/>
+    <path d="M186 178 C 172 174, 160 166, 150 160" stroke-width="3.5"/>
+    <path d="M212 176 C 228 172, 240 166, 250 160" stroke-width="3.5"/>
+    <path d="M166 160 C 158 150, 152 140, 150 128" stroke-width="3"/>
+    <path d="M234 158 C 244 148, 250 138, 252 126" stroke-width="3"/>
+  </g>
+  <!-- canopy of small photo frames -->
+  <g stroke="#FFFFFF" stroke-width="2">
+    <rect x="140" y="112" width="26" height="22" rx="2" fill="#8FA68E" transform="rotate(-12 153 123)"/>
+    <rect x="168" y="94" width="26" height="22" rx="2" fill="#C9A961" transform="rotate(8 181 105)"/>
+    <rect x="196" y="88" width="26" height="22" rx="2" fill="#6B8CAE" transform="rotate(-6 209 99)"/>
+    <rect x="224" y="98" width="26" height="22" rx="2" fill="#8FA68E" transform="rotate(10 237 109)"/>
+    <rect x="246" y="118" width="26" height="22" rx="2" fill="#C9A0A0" transform="rotate(-8 259 129)"/>
+    <rect x="134" y="140" width="26" height="22" rx="2" fill="#C9A0A0" transform="rotate(6 147 151)"/>
+    <rect x="160" y="124" width="26" height="22" rx="2" fill="#6B8CAE" transform="rotate(-4 173 135)"/>
+    <rect x="188" y="116" width="26" height="22" rx="2" fill="#C9A961" transform="rotate(5 201 127)"/>
+    <rect x="216" y="124" width="26" height="22" rx="2" fill="#8FA68E" transform="rotate(-9 229 135)"/>
+    <rect x="240" y="146" width="26" height="22" rx="2" fill="#6B8CAE" transform="rotate(7 253 157)"/>
+    <rect x="154" y="152" width="26" height="22" rx="2" fill="#C9A961" transform="rotate(-7 167 163)"/>
+    <rect x="222" y="152" width="26" height="22" rx="2" fill="#C9A0A0" transform="rotate(4 235 163)"/>
+  </g>
+  <!-- roots / ground -->
+  <path d="M150 268 Q 200 258 250 268" stroke="#C9A961" stroke-width="2.5" fill="none"/>
+  <text x="200" y="336" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1F2A44">Funeral Pictorial</text>
+  <text x="200" y="362" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#5B6476" letter-spacing="4">A LIFE IN PICTURES</text>
+</svg>

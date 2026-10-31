@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" width="680" height="220">
+  <title>Funeral Pictorial — Weeping Willow</title>
+  <rect width="680" height="220" fill="#F7F3EC"/>
+  <!-- frame -->
+  <rect x="58" y="70" width="112" height="112" rx="3" fill="#FFFFFF" stroke="#1F2A44" stroke-width="4"/>
+  <rect x="68" y="80" width="92" height="92" fill="#E7E0D1"/>
+  <!-- small sun inside frame -->
+  <circle cx="114" cy="138" r="18" fill="#C9A961" opacity="0.6"/>
+  <path d="M68 150 Q 114 140 160 150 L 160 172 L 68 172 Z" fill="#8FA68E" opacity="0.6"/>
+  <!-- willow rising behind and draping over the frame -->
+  <path d="M140 182 C 142 150, 140 110, 138 60" stroke="#1F2A44" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <g stroke="#8FA68E" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M138 56 C 108 48, 84 66, 80 130"/>
+    <path d="M138 56 C 118 46, 96 60, 94 136"/>
+    <path d="M138 56 C 130 44, 110 56, 110 140"/>
+    <path d="M138 56 C 136 60, 128 90, 126 146"/>
+    <path d="M138 56 C 146 46, 162 56, 160 140"/>
+    <path d="M138 56 C 156 46, 178 60, 176 136"/>
+    <path d="M138 56 C 168 48, 192 66, 190 128"/>
+  </g>
+  <circle cx="138" cy="56" r="4.5" fill="#1F2A44"/>
+  <text x="240" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#1F2A44">Funeral Pictorial</text>
+  <text x="242" y="136" font-family="Georgia, serif" font-size="14" fill="#5B6476" letter-spacing="3.5" font-style="italic">gentle tributes for the people you love</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" width="680" height="220">
+  <title>Funeral Pictorial — Primary (dove, tree, sunrise)</title>
+  <defs>
+    <clipPath id="fr"><rect x="46" y="38" width="144" height="144" rx="4"/></clipPath>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7F3EC"/><stop offset="100%" stop-color="#E7E0D1"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="220" fill="#FFFFFF"/>
+  <g clip-path="url(#fr)">
+    <rect x="46" y="38" width="144" height="144" fill="url(#dawn)"/>
+    <!-- rising sun -->
+    <circle cx="134" cy="128" r="40" fill="#C9A961" opacity="0.35"/>
+    <circle cx="134" cy="128" r="28" fill="#C9A961"/>
+    <!-- ground -->
+    <rect x="46" y="128" width="144" height="54" fill="#1F2A44"/>
+    <!-- tree -->
+    <g transform="translate(16,0)">
+    <g stroke="#1F2A44" stroke-linecap="round" fill="none">
+      <path d="M118 132 C 119 120, 118 110, 117 98" stroke-width="6"/>
+      <path d="M117 104 C 108 100, 100 94, 96 84" stroke-width="4"/>
+      <path d="M117 100 C 126 96, 134 90, 138 80" stroke-width="4"/>
+      <path d="M117 110 C 110 108, 104 104, 100 100" stroke-width="3"/>
+    </g>
+    <g fill="#1F2A44">
+      <circle cx="117" cy="76" r="17"/><circle cx="98" cy="84" r="12"/><circle cx="137" cy="80" r="12"/>
+      <circle cx="104" cy="94" r="10"/><circle cx="130" cy="92" r="10"/>
+    </g>
+    </g>
+    <!-- dove, navy -->
+    <g fill="#1F2A44" transform="translate(38,8) scale(0.42)">
+      <path d="M62 122 C 72 102, 96 94, 120 98 C 127 91, 136 90, 142 96 L 153 99 L 142 103 C 139 113, 128 122, 112 124 C 96 126, 78 132, 62 122 Z"/>
+      <path d="M100 101 C 92 84, 100 66, 120 58 C 112 72, 114 86, 126 96 Z"/>
+      <path d="M66 120 C 56 114, 52 106, 56 100 L 76 112 Z"/>
+    </g>
+  </g>
+  <rect x="46" y="38" width="144" height="144" rx="4" fill="none" stroke="#1F2A44" stroke-width="5"/>
+  <rect x="56" y="48" width="124" height="124" rx="2" fill="none" stroke="#C9A961" stroke-width="1.5"/>
+  <text x="228" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#1F2A44">Funeral Pictorial</text>
+  <line x1="230" y1="124" x2="648" y2="124" stroke="#C9A961" stroke-width="1.5"/>
+  <text x="231" y="150" font-family="Georgia, serif" font-size="14" fill="#5B6476" letter-spacing="3.2">MEMORIAL SLIDESHOWS &amp; TRIBUTE FILMS</text>
+</svg>
