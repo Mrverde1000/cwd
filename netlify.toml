@@ -1,9 +1,12 @@
-# Netlify: serve /about and /contact without extensions and hide .html everywhere.
+# Netlify: "Pretty URLs" serves /about for about.html and strips .html.
 [build]
   publish = "."
 
+[build.processing.html]
+  pretty_urls = true
+
 [[redirects]]
   from = "/*.html"
-  to = "/:splat/"
+  to = "/:splat"
   status = 301
   force = true

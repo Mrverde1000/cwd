@@ -8,8 +8,8 @@ at the venue when required.
 
 ```
 index.html              Home page (hero, how it works, sample TV slideshow, packages, FAQ)
-about/index.html        About page  → served at /about/
-contact/index.html      Contact page → served at /contact/
+about.html              About page  → linked and served as /about
+contact.html            Contact page → linked and served as /contact
 assets/
   css/styles.css        All styling (palette lives in :root at the top)
   js/main.js            Mobile nav, sample slideshow, contact-form fallback, footer year
@@ -17,19 +17,33 @@ assets/
 .htaccess / netlify.toml / vercel.json   Clean-URL config for Apache, Netlify and Vercel
 ```
 
-Pages are folders with an `index.html` inside, so URLs are `/`, `/about/` and `/contact/`
-and `.html` never appears in the address bar on any host (GitHub Pages, Netlify, Vercel,
-Apache, nginx). The site also opens straight from disk by double-clicking `index.html`.
+All three pages sit in the main directory. Links point to `about` and `contact` with no
+extension, and the host serves the matching `.html` file:
+
+- **GitHub Pages** does this automatically.
+- **Apache** hosts (most cPanel shared hosting) use the included `.htaccess`.
+- **Netlify** uses `netlify.toml` (Pretty URLs) and **Vercel** uses `vercel.json` (cleanUrls).
+- **nginx**: add `try_files $uri $uri.html $uri/ =404;` to the `location /` block.
+
+Because the links have no extension, the About and Contact links only resolve when the
+site is served by a web server. To preview from disk, open `about.html` and `contact.html`
+directly, or run a quick local server from the folder:
+
+```bash
+python3 -m http.server 8000
+```
+
+(the `.htaccess` rules are not applied by that test server, so use `about.html` there).
 
 ## Before going live
 
-1. **Contact form** — in `contact/index.html`, replace `YOUR_FORM_ID` in the form's `action`
+1. **Contact form** — in `contact.html`, replace `YOUR_FORM_ID` in the form's `action`
    with your Formspree (or similar) endpoint. Until then the form shows the thank-you panel
    locally without sending anything.
 2. **Phone, email, service area** — search for `(312) 555-0147`, `+13125550147`,
    `hello@funeralpictorial.com` and `Chicagoland` across the three pages and replace.
 3. **Pricing** — package names and prices are in the Packages section of `index.html`
-   and the package dropdown in `contact/index.html`.
+   and the package dropdown in `contact.html`.
 4. **Photos** — the artwork is original SVG so the site has no licensing concerns. Swap in real
    photography by dropping files into `assets/images/` and updating the `<img>` tags
    (hero, about-story, and the four `slide-*.svg` sample slides in the TV mock-up).
