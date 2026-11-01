@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="A television on a stand in a chapel, playing the finished tribute">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcc88a"/><stop offset="1" stop-color="#b8973f"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4c38a"/><stop offset="1" stop-color="#6a4a6e"/></linearGradient></defs>
+  <ellipse cx="160" cy="180" rx="130" ry="12" fill="#f1ebe1"/>
+  <!-- arched window hint -->
+  <path d="M40 170 V70 a30 30 0 0 1 60 0 V170z" fill="#f4ecdc"/>
+  <path d="M220 170 V70 a30 30 0 0 1 60 0 V170z" fill="#f4ecdc"/>
+  <!-- TV -->
+  <rect x="96" y="40" width="128" height="80" rx="6" fill="#0f1620"/>
+  <rect x="102" y="46" width="116" height="68" rx="2" fill="url(#sky)"/>
+  <circle cx="190" cy="70" r="12" fill="#fff1c7"/>
+  <path d="M102 96 C130 84 150 94 170 88 C190 82 205 96 218 92 L218 114 L102 114z" fill="#2f2640"/>
+  <rect x="152" y="120" width="16" height="30" fill="#1a222e"/>
+  <rect x="120" y="150" width="80" height="8" rx="4" fill="#1a222e"/>
+  <!-- flowers each side -->
+  <g transform="translate(60 118)">
+    <rect x="8" y="30" width="20" height="30" rx="3" fill="#8ea48c"/>
+    <path d="M18 30 C14 18 10 10 18 0 C26 10 22 18 18 30z" fill="#faf7f2" stroke="#e6dfd3"/>
+    <path d="M18 30 C6 24 0 16 8 10 C16 14 18 22 18 30z" fill="#faf7f2" stroke="#e6dfd3"/>
+    <path d="M18 30 C30 24 36 16 28 10 C20 14 18 22 18 30z" fill="#faf7f2" stroke="#e6dfd3"/>
+    <circle cx="18" cy="24" r="3" fill="#d8a85a"/>
+  </g>
+  <g transform="translate(232 118)">
+    <rect x="8" y="30" width="20" height="30" rx="3" fill="#8ea48c"/>
+    <path d="M18 30 C14 18 10 10 18 0 C26 10 22 18 18 30z" fill="#faf7f2" stroke="#e6dfd3"/>
+    <path d="M18 30 C6 24 0 16 8 10 C16 14 18 22 18 30z" fill="#faf7f2" stroke="#e6dfd3"/>
+    <path d="M18 30 C30 24 36 16 28 10 C20 14 18 22 18 30z" fill="#faf7f2" stroke="#e6dfd3"/>
+    <circle cx="18" cy="24" r="3" fill="#d8a85a"/>
+  </g>
+  <!-- checkmark badge -->
+  <circle cx="230" cy="40" r="18" fill="url(#g)"/>
+  <path d="M221 40 L228 47 L240 33" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

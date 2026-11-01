@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="A garden path lined with flowers">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe9f3"/><stop offset="1" stop-color="#c9d7c6"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <path d="M0 450 L330 230 L470 230 L800 450z" fill="#e6dfd3"/>
+  <path d="M0 300 C120 260 220 290 330 250 L330 230 L0 230z" fill="#7b9176"/>
+  <path d="M470 250 C580 290 680 260 800 300 L800 230 L470 230z" fill="#7b9176"/>
+  <g fill="#8ea48c"><ellipse cx="90" cy="320" rx="90" ry="60"/><ellipse cx="700" cy="330" rx="100" ry="70"/><ellipse cx="240" cy="290" rx="60" ry="40"/><ellipse cx="560" cy="290" rx="60" ry="40"/></g>
+  <g fill="#f3b7c6"><circle cx="60" cy="300" r="8"/><circle cx="110" cy="330" r="7"/><circle cx="150" cy="300" r="6"/><circle cx="680" cy="310" r="8"/><circle cx="730" cy="350" r="7"/><circle cx="760" cy="300" r="6"/></g>
+  <g fill="#fff1c7"><circle cx="230" cy="280" r="6"/><circle cx="260" cy="300" r="5"/><circle cx="550" cy="280" r="6"/><circle cx="580" cy="300" r="5"/></g>
+  <path d="M400 60 l12 30 l32 2 l-25 20 l9 31 l-28 -18 l-28 18 l9 -31 l-25 -20 l32 -2z" fill="#fff" opacity="0.6"/>
+</svg>

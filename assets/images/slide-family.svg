@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="A family gathered together at golden hour">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4ecdc"/><stop offset="1" stop-color="#dcc88a"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <circle cx="400" cy="200" r="150" fill="#fff" opacity="0.35"/>
+  <g fill="#8c6a47">
+    <circle cx="320" cy="200" r="30"/><path d="M280 240 h80 l14 120 h-108z"/>
+    <circle cx="400" cy="185" r="34"/><path d="M356 230 h88 l16 130 h-120z"/>
+    <circle cx="480" cy="205" r="28"/><path d="M444 244 h72 l12 116 h-96z"/>
+    <circle cx="430" cy="290" r="18"/><path d="M408 312 h44 l6 48 h-56z"/>
+  </g>
+  <rect x="0" y="360" width="800" height="90" fill="#b8973f" opacity="0.55"/>
+</svg>

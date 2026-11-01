@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Sunset over rolling hills">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7c88f"/><stop offset="0.55" stop-color="#e58c6a"/><stop offset="1" stop-color="#6a4a6e"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <circle cx="560" cy="250" r="70" fill="#fff1c7"/>
+  <path d="M0 330 C140 280 260 310 380 290 C500 270 620 330 800 300 V450 H0z" fill="#4e3d5c"/>
+  <path d="M0 380 C160 340 300 390 440 365 C580 340 700 395 800 370 V450 H0z" fill="#2f2640"/>
+  <g fill="#1d1728"><circle cx="400" cy="318" r="10"/><path d="M388 330h24l6 44h-36z"/><circle cx="430" cy="325" r="8"/><path d="M420 336h20l5 38h-30z"/></g>
+</svg>

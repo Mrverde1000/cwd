@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="A timeline of slides with music notes, showing the slideshow being edited">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcc88a"/><stop offset="1" stop-color="#b8973f"/></linearGradient></defs>
+  <ellipse cx="160" cy="178" rx="120" ry="12" fill="#f1ebe1"/>
+  <!-- laptop -->
+  <rect x="60" y="40" width="200" height="120" rx="8" fill="#2b3450"/>
+  <rect x="70" y="50" width="180" height="100" rx="3" fill="#faf7f2"/>
+  <rect x="40" y="160" width="240" height="10" rx="5" fill="#1a222e"/>
+  <!-- preview -->
+  <rect x="78" y="58" width="112" height="62" rx="3" fill="#e58c6a"/>
+  <path d="M78 104 C100 92 120 100 140 94 C160 88 175 104 190 100 L190 120 L78 120z" fill="#4e3d5c"/>
+  <circle cx="165" cy="76" r="10" fill="#fff1c7"/>
+  <!-- side panel -->
+  <rect x="198" y="58" width="44" height="12" rx="2" fill="#e6dfd3"/>
+  <rect x="198" y="76" width="44" height="12" rx="2" fill="#e6dfd3"/>
+  <rect x="198" y="94" width="44" height="12" rx="2" fill="#e6dfd3"/>
+  <!-- timeline -->
+  <rect x="78" y="128" width="164" height="14" rx="3" fill="#e6dfd3"/>
+  <rect x="78" y="128" width="30" height="14" rx="3" fill="#8ea48c"/>
+  <rect x="110" y="128" width="40" height="14" rx="3" fill="#dcc88a"/>
+  <rect x="152" y="128" width="36" height="14" rx="3" fill="#8ea48c"/>
+  <rect x="190" y="128" width="52" height="14" rx="3" fill="#dcc88a"/>
+  <!-- music notes -->
+  <g fill="url(#g)">
+    <circle cx="268" cy="44" r="7"/><rect x="273" y="14" width="3" height="30"/>
+    <path d="M273 14 c10 2 14 8 12 16 c-2 -5 -6 -8 -12 -9z"/>
+    <circle cx="290" cy="74" r="6"/><rect x="294" y="50" width="3" height="24"/>
+  </g>
+</svg>

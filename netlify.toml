@@ -1,0 +1,9 @@
+# Netlify: serve /about and /contact without extensions and hide .html everywhere.
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat/"
+  status = 301
+  force = true

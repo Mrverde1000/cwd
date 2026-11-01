@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="A framed portrait with soft florals">
+  <rect width="800" height="450" fill="#2b3450"/>
+  <rect x="260" y="55" width="280" height="340" rx="6" fill="#b8973f"/>
+  <rect x="276" y="71" width="248" height="308" rx="3" fill="#f4ecdc"/>
+  <circle cx="400" cy="190" r="60" fill="#c9bfae"/>
+  <path d="M300 360 C330 270 470 270 500 360z" fill="#c9bfae"/>
+  <g fill="#faf7f2" opacity="0.9">
+    <circle cx="120" cy="120" r="22"/><circle cx="150" cy="150" r="16"/><circle cx="95" cy="160" r="14"/>
+    <circle cx="680" cy="330" r="22"/><circle cx="650" cy="300" r="16"/><circle cx="705" cy="290" r="14"/>
+  </g>
+  <g fill="#8ea48c"><ellipse cx="130" cy="200" rx="40" ry="18" transform="rotate(-20 130 200)"/><ellipse cx="670" cy="250" rx="40" ry="18" transform="rotate(20 670 250)"/></g>
+</svg>

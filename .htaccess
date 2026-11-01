@@ -1,0 +1,21 @@
+# Clean URLs for Apache hosts.
+# Pages live in folders (about/index.html, contact/index.html) so /about/ and
+# /contact/ work everywhere. These rules add two conveniences:
+#   1. /about  (no trailing slash) serves the same page.
+#   2. Any stray /page.html request is redirected to /page/ so .html never shows.
+Options -Indexes
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # /about.html  ->  /about/   (permanent redirect, hides .html)
+  RewriteCond %{THE_REQUEST} \s/([^/\s]+)\.html[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L]
+
+  # /about  ->  /about/index.html  (no visible change in the address bar)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^([^.]+?)/?$ /$1/index.html [L]
+</IfModule>
