@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="A couple beneath a wedding arch">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f5f0"/><stop offset="1" stop-color="#e9d9c8"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <path d="M250 450 V260 a150 150 0 0 1 300 0 V450" fill="none" stroke="#8ea48c" stroke-width="18"/>
+  <g fill="#faf7f2" stroke="#e6dfd3" stroke-width="2"><circle cx="260" cy="250" r="16"/><circle cx="300" cy="170" r="16"/><circle cx="380" cy="118" r="16"/><circle cx="470" cy="122" r="16"/><circle cx="530" cy="190" r="16"/><circle cx="545" cy="270" r="16"/></g>
+  <g fill="#d7a6a6"><circle cx="280" cy="210" r="10"/><circle cx="430" cy="110" r="10"/><circle cx="540" cy="230" r="10"/><circle cx="250" cy="300" r="10"/></g>
+  <g fill="#2b3450"><circle cx="370" cy="250" r="22"/><path d="M340 280 h60 l12 170 h-84z"/></g>
+  <g fill="#fff"><circle cx="430" cy="258" r="20"/><path d="M400 286 h60 l30 164 h-120z"/></g>
+  <circle cx="430" cy="258" r="20" fill="none" stroke="#e6dfd3" stroke-width="2"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="A small boat on a misty lake at sunrise">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f5f0"/><stop offset="1" stop-color="#dcc88a"/></linearGradient>
+  <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7e96b7"/><stop offset="1" stop-color="#4e5a78"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <circle cx="400" cy="230" r="60" fill="#fff1c7" opacity="0.9"/>
+  <path d="M0 250 C120 200 220 240 340 215 C460 190 560 240 800 220 V260 H0z" fill="#8ea48c" opacity="0.7"/>
+  <rect x="0" y="255" width="800" height="195" fill="url(#w)"/>
+  <g stroke="#fff" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"><path d="M100 300 h80"/><path d="M500 330 h120"/><path d="M250 380 h60"/><path d="M650 400 h90"/></g>
+  <path d="M330 320 L470 320 L450 350 L350 350z" fill="#2b3450"/>
+  <g fill="#1d1728"><circle cx="400" cy="300" r="9"/><path d="M390 310 h20 l3 12 h-26z"/></g>
+  <path d="M330 320 L300 312" stroke="#2b3450" stroke-width="4" stroke-linecap="round"/>
+</svg>

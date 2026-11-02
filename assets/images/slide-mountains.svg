@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="A hiker looking over mountain peaks at dawn">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3450"/><stop offset="0.6" stop-color="#7e96b7"/><stop offset="1" stop-color="#f4c38a"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <g fill="#fff" opacity="0.8"><circle cx="120" cy="60" r="2"/><circle cx="300" cy="40" r="2"/><circle cx="520" cy="80" r="2"/><circle cx="700" cy="50" r="2"/></g>
+  <path d="M0 330 L160 170 L260 260 L380 120 L520 290 L640 180 L800 320 V450 H0z" fill="#4e5a78"/>
+  <path d="M380 120 L350 165 L380 160 L410 170z M160 170 L140 200 L165 195 L185 205z M640 180 L620 210 L645 205 L665 215z" fill="#fff" opacity="0.85"/>
+  <path d="M0 450 L0 360 C200 320 400 380 600 340 C700 320 760 330 800 350 V450z" fill="#2b3450"/>
+  <g fill="#1d1728"><circle cx="400" cy="318" r="9"/><path d="M390 330 h20 l4 46 h-28z"/><rect x="410" y="300" width="3" height="76" rx="1.5"/></g>
+</svg>

@@ -46,7 +46,7 @@ python3 -m http.server 8000
    and the package dropdown in `contact.html`.
 4. **Photos** — the artwork is original SVG so the site has no licensing concerns. Swap in real
    photography by dropping files into `assets/images/` and updating the `<img>` tags
-   (hero, about-story, and the four `slide-*.svg` sample slides in the TV mock-up).
+   (about-story, and the ten `slide-*.svg` sample slides that rotate in the hero TV).
 5. **Logo** — `assets/images/logo-mark.svg` (circle mark used in the header/footer) and
    `assets/images/logo.svg` (full lockup with wordmark) were rebuilt as vectors from the
    supplied logo. Replace them with your master files if you have them.

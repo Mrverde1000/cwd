@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Footprints along a quiet beach at dusk">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe9f3"/><stop offset="0.6" stop-color="#f4c38a"/><stop offset="1" stop-color="#e58c6a"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#s)"/>
+  <circle cx="620" cy="240" r="40" fill="#fff1c7"/>
+  <rect x="0" y="260" width="800" height="190" fill="#7e96b7"/>
+  <path d="M0 270 C100 250 200 290 300 270 C400 250 500 290 600 270 C700 250 760 280 800 270 V290 C700 300 600 280 500 300 C400 320 300 290 200 310 C100 330 50 300 0 310z" fill="#fff" opacity="0.5"/>
+  <path d="M0 450 L0 340 C150 300 350 330 500 360 C650 390 750 380 800 340 L800 450z" fill="#f1e2c6"/>
+  <g fill="#e2cfae"><ellipse cx="200" cy="400" rx="10" ry="16" transform="rotate(-20 200 400)"/><ellipse cx="250" cy="385" rx="10" ry="16" transform="rotate(-20 250 385)"/><ellipse cx="300" cy="395" rx="10" ry="16" transform="rotate(-20 300 395)"/><ellipse cx="350" cy="380" rx="10" ry="16" transform="rotate(-20 350 380)"/></g>
+</svg>
