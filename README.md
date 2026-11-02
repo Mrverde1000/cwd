@@ -42,8 +42,8 @@ python3 -m http.server 8000
    locally without sending anything.
 2. **Phone, email, service area** — search for `(312) 555-0147`, `+13125550147`,
    `hello@funeralpictorial.com` and `Chicagoland` across the three pages and replace.
-3. **Pricing** — the two package prices ($249 and $399) are placeholders, not researched
-   figures. Set them in the Packages section of `index.html` and the package dropdown in
+3. **Pricing** — the two package prices ($299 and $499) were set by the owner;
+   change them in the Packages section of `index.html` and the package dropdown in
    `contact.html`.
 4. **Photos** — the artwork is original SVG so the site has no licensing concerns. Swap in real
    photography by dropping files into `assets/images/` and updating the `<img>` tags
