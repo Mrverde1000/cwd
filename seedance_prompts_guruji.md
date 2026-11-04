@@ -725,3 +725,74 @@ Edit @Video 1. 0-8s: no change. 8-18s: replace only the steel glass in his hand 
 | Health is first wealth, body as temple, movement | Pehla sukh nirogi kaya | 24 |
 | Gratitude, peace as wealth | Santosha | 25 |
 | Monk persona, lineage, origin story | Guru-shishya | 26 |
+
+---
+
+## 8. Using these prompts in Dreamina (dreamina.capcut.com)
+
+Dreamina is ByteDance's own front end for Seedance, so the prompt syntax above (labelled @ references, timestamps, brackets, "No captions") is the syntax it was written for. The differences from the OpenArt-oriented guide are in the menus, the limits and the cost.
+
+### 8.1 Where things are
+
+1. Sign in at dreamina.capcut.com and open **AI Video** (the video generator, not AI Image).
+2. In the model picker choose **Seedance 2.5**. If your account only shows Seedance 2.0, see 8.5.
+3. In the mode menu you will see four modes. Use them like this:
+   - **Omni Reference** (older UI calls it "All-in-One Reference"): the normal mode for every prompt in sections 3 to 5. It is the only mode where @ tags work.
+   - **Smart Edit**: for the region-edit prompts in section 6 (Text Edit, Marked Edit, Edit Video).
+   - **Long Video**: a direct 30-to-180-second generation. Only use it once a 30-second clip already looks right.
+   - **First and Last Frames**: not needed for this project.
+4. Set **Aspect ratio** to 9:16 for reels, **Resolution** to 720p while testing, and **Duration** to the clip length the prompt was written for (30 s for the section 3 prompts, 10 to 15 s for section 4).
+
+### 8.2 Making Guruji once (cheaper than Prompt 0)
+
+Video credits are expensive, so build the reference set as still images first:
+
+1. Open **AI Image** and paste the character paragraph from Prompt 0 (the first paragraph, before the timestamps). Generate until one face looks right.
+2. Using that image as a reference in AI Image, make the rest of the set: a clean front-facing head-and-shoulders shot (for @Image 1), a full-body shot of the kurta, shawl and mala (@Image 2), the courtyard with the tulsi plant (@Image 3), the kitchen with brass and clay vessels (@Image 4), the ghat steps at sunrise (@Image 5). Keep the backgrounds plain so the "only" labels have less to fight.
+3. Download them and keep them in a folder named in upload order. Dreamina has no "Characters" library like OpenArt; you re-upload the same files each time, and the tag numbers follow upload order. Upload in the same order every time so @Image 1 is always the face.
+4. Only then run Prompt 0 as a video, if you still want it as an intro.
+
+### 8.3 Running a theme prompt
+
+1. AI Video, Seedance 2.5, Omni Reference. Click **+** and upload the reference images the prompt lists, in order (face, clothes, setting). Add your Hindi voice sample last if you have one.
+2. Paste the prompt. For each "@Image 1", "@Audio 1" in the text, delete the typed tag and re-insert it by typing **@** in the prompt box and picking the file from the selector (or click the @ icon). The picker links the tag to the actual upload; a typed tag that does not match a file is ignored.
+3. Check that Duration matches the last timestamp in the prompt (30 s for section 3). A shorter setting silently drops the final beats.
+4. Generate. Review the mouth movement on the spoken beats first; that is where Hindi fails most often (see 8.4).
+5. Use **Extend** on a finished clip with the section 5 prompt to continue it. Do not write "reference @Video 1" in an extension; in Dreamina that produces a new clip that merely resembles the original. Extend, and Smart Edit, treat the source clip as the master automatically.
+6. Save good clips to **Assets** and reuse the first frame of a good clip as a setting reference for the next one.
+
+### 8.4 Hindi speech: test before you spend
+
+Seedance's listed dialogue languages are English, Chinese, Japanese, Korean, Spanish, French, German and Portuguese. Hindi is not on the list, but creators in India report that it works when the line is written in Devanagari (romanised Hindi does worse), with quality behind English. So:
+
+1. Run this 5-second test first (about 185 credits at 720p):
+
+```
+[@Image 1 defines Guruji's face, white beard and white hair only.]
+Guruji sits in the courtyard and speaks straight to the lens. Static close-up, front-facing.
+0-5s: He speaks, head still.
+Spoken language: Hindi. He speaks slowly and warmly in a low, slightly gravelly voice.
+{नमस्ते। आज एक छोटी बात बताता हूँ।}
+<birds at dawn> （no background music）
+No captions. No logos or watermarks.
+```
+
+2. If the Hindi is clear, run the long prompts, but trim each spoken beat to two short sentences; lines over about sixteen words in one beat break lip-sync. The lines in section 3 are written in short sentences so you can drop a sentence without rewriting.
+3. Keep his head still while he speaks. Nods and turns during a line fight the lip-sync. The prompts already put the nods and bows in silent beats.
+4. If the Hindi sounds wrong, record the line yourself (or make it with a Hindi text-to-speech voice in CapCut) and upload it as @Audio 1 with "@Audio 1 defines Guruji's voice and the spoken line. He lip-syncs to it." plus the Devanagari transcript in the prompt. Audio references need at least one image in the same generation, and the audio must be no longer than the clip.
+5. Last resort: generate the clip with the mouth mostly out of frame or in a three-quarter profile, and lay the voice over it in CapCut.
+
+### 8.5 If you only have Seedance 2.0
+
+- Duration is 4 to 15 seconds, so use the section 4 cut-downs or split a section 3 prompt into two clips and extend.
+- Replace "0-8s:", "8-18s:" with "Shot 1:", "Shot 2:" and so on. 2.0 reads shot numbers, not timestamps.
+- Reference limits are 9 images, 3 videos and 3 audio files, with the video and audio clips adding up to 15 seconds or less.
+- Everything else (the @ tags, brackets, "No captions", language named before the line) stays the same.
+
+### 8.6 Credits
+
+Published figures for Dreamina put Seedance 2.5 at roughly 37 credits per second at 720p and about 2.5 times that at 1080p; the Basic plan is 1,575 credits a month. That makes a 30-second 720p clip around 1,100 credits, so one or two full-length clips exhaust Basic. Practical approach: test at 5 seconds, generate the teaching beat at 10 to 15 seconds, extend only the clips that work, and upscale to 1080p only at the end. Check the price shown next to the Generate button; it is the only authoritative number.
+
+### 8.7 If a prompt is flagged
+
+Spiritual content is fine, but filters are literal. If a prompt is refused, the likely triggers are the line about dying in Prompt 23 and the sword image in Prompt 18. Soften the English scene description first (for example "a short wooden walking staff" is already used instead of a sword); the Hindi line can stay.
