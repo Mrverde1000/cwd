@@ -816,3 +816,30 @@ p  { margin: 0 0 1em; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* ---------- FAQ groups ---------- */
+.faq__group {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 2.2rem 0 1rem;
+}
+.faq__group:first-child { margin-top: 0; }
+
+/* ---------- Upload portal (Uppy theme overrides) ---------- */
+#uploader { margin: 1rem 0 1.4rem; }
+.uppy-Dashboard-inner {
+  border-radius: var(--radius-sm) !important;
+  border: 2px dashed var(--gold-soft) !important;
+  background: var(--cream) !important;
+}
+.uppy-Dashboard-AddFiles-title { font-family: var(--font-serif); font-size: 1.5rem !important; color: var(--ink) !important; }
+.uppy-Dashboard-browse { color: var(--gold) !important; }
+.uppy-StatusBar-actionBtn--upload,
+.uppy-c-btn-primary { background: var(--gold) !important; border-radius: 999px !important; }
+.uppy-StatusBar-actionBtn--upload:hover,
+.uppy-c-btn-primary:hover { background: #a3852f !important; }
+.uppy-DashboardContent-bar { background: var(--white) !important; }
+.uppy-Dashboard-AddFiles-info { padding-bottom: 0.5rem; }

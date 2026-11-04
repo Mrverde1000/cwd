@@ -10,9 +10,11 @@ at the venue when required.
 index.html              Home page (hero, how it works, sample TV slideshow, packages, FAQ)
 about.html              About page  → linked and served as /about
 contact.html            Contact page → linked and served as /contact
+upload.html             Family upload portal → /upload (Uppy uploader, needs a tus server)
 assets/
   css/styles.css        All styling (palette lives in :root at the top)
   js/main.js            Mobile nav, sample slideshow, contact-form fallback, footer year
+  js/upload.js          Upload portal: Uppy dashboard + tus resumable uploads
   images/               Logo, favicon and all SVG artwork
 .htaccess / netlify.toml / vercel.json   Clean-URL config for Apache, Netlify and Vercel
 ```
@@ -51,3 +53,25 @@ python3 -m http.server 8000
 5. **Logo** — `assets/images/logo-mark.svg` (circle mark used in the header/footer) and
    `assets/images/logo.svg` (full lockup with wordmark) were rebuilt as vectors from the
    supplied logo. Replace them with your master files if you have them.
+
+## Upload portal
+
+`upload.html` is a working front end for a family upload portal, built on
+[Uppy](https://github.com/transloadit/uppy) (MIT licence) with resumable uploads over the
+[tus](https://tus.io) protocol. Out of the box it runs in **demo mode**: families can pick
+files and see them listed, but nothing is sent.
+
+To make it live you need a tus server to receive the files:
+
+1. Run [tusd](https://github.com/tus/tusd) (official open-source tus server, single binary or
+   Docker) on a small VPS, storing files on local disk or in S3-compatible storage such as
+   AWS S3, Backblaze B2 or Cloudflare R2.
+2. Put it behind HTTPS at a subdomain, e.g. `https://uploads.funeralpictorial.com/files/`,
+   and allow CORS from your site's domain.
+3. Set `UPLOAD_ENDPOINT` at the top of `assets/js/upload.js` to that URL.
+4. Use tusd's hooks (`post-finish`) to email yourself when a family's upload completes.
+   The form fields on the page (loved one's name, reference, uploader's name and email,
+   notes) are sent as metadata with every file, so each upload is tagged to a tribute.
+
+Alternatives that need no custom server: a Nextcloud "File Drop" link, Pingvin Share's
+reverse-share links, or a Dropbox File Request. See the notes in the project chat.

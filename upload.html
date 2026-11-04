@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Photos &amp; Videos | Funeral Pictorial</title>
+  <meta name="description" content="Send your family's photos and videos to Funeral Pictorial through our private upload portal. No account needed. Works from your phone or computer.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Uppy: open-source uploader (MIT) — https://github.com/transloadit/uppy -->
+  <link href="assets/vendor/uppy/uppy.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="./">
+        <img src="assets/images/logo-mark.svg" alt="Funeral Pictorial logo">
+        <span>Funeral Pictorial<small>A life in pictures</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+        <a href="upload" aria-current="page">Upload Photos</a>
+        <a class="btn btn--primary" href="contact">Start a Tribute</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Private upload portal</span>
+        <h1>Share the photos and videos.</h1>
+        <p class="lead">Choose files straight from your phone or computer. No account, no app. Add as many as you like, and come back to add more at any time.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container contact-grid">
+
+        <div class="card">
+          <span class="eyebrow">Step 1 of 2</span>
+          <h2>Who is this tribute for?</h2>
+          <form class="form-grid" id="upload-details" autocomplete="on">
+            <div class="form-field">
+              <label for="loved-one">Loved one's full name</label>
+              <input id="loved-one" name="loved_one" type="text" required>
+            </div>
+            <div class="form-field">
+              <label for="reference">Tribute reference <span>(from your welcome email, optional)</span></label>
+              <input id="reference" name="reference" type="text" placeholder="e.g. FP-2041">
+            </div>
+            <div class="form-field">
+              <label for="your-name">Your name</label>
+              <input id="your-name" name="your_name" type="text" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="your-email">Your email</label>
+              <input id="your-email" name="your_email" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="notes">Notes for the editor <span>(optional)</span></label>
+              <textarea id="notes" name="notes" placeholder="Favourite photos, order preferences, names of people in the pictures, songs you'd like..."></textarea>
+            </div>
+          </form>
+
+          <span class="eyebrow" style="margin-top:2rem;">Step 2 of 2</span>
+          <h2>Add photos &amp; videos</h2>
+          <p style="color:var(--ink-soft);">Drag files in, or tap to browse your camera roll. Photos, HEIC, JPG, PNG, MP4 and MOV are all fine. Large videos resume automatically if your connection drops.</p>
+          <div id="uploader"></div>
+          <div class="form-success" id="upload-success" role="status" aria-live="polite">
+            <strong>Thank you. Your files have arrived safely.</strong><br>
+            We'll email you a confirmation and be in touch with a preview. You can return to this page to add more at any time.
+          </div>
+          <div class="urgent" id="upload-notice" hidden>
+            <strong>Demo mode.</strong> The upload server isn't connected yet, so files are listed but not sent. See the README for how to point this page at your storage.
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <h2>Tips for great photos</h2>
+            <ul class="checklist">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Aim for 50 to 60 photos per song. Around 100 for a two-song tribute.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Send originals rather than screenshots when you can. Bigger is better.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>A mix of eras and people tells the fullest story: childhood, family, work, hobbies.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Short video clips of 5 to 30 seconds work best. Voice messages are welcome too.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Have printed photos? Call us and we'll collect and scan them.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h2>Sharing this page</h2>
+            <p style="color:var(--ink-soft);margin:0 0 1rem;">Forward this link to brothers, sisters, grandchildren and friends. Everyone can add their own photos, and everything lands in the same tribute.</p>
+            <button class="btn btn--outline btn--block" type="button" id="copy-link">Copy page link</button>
+          </div>
+
+          <div class="card">
+            <h2>Need a hand?</h2>
+            <ul class="contact-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+                <div><strong>Call or text</strong><a href="tel:+13125550147">(312) 555-0147</a></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                <div><strong>Email</strong><a href="mailto:hello@funeralpictorial.com">hello@funeralpictorial.com</a></div>
+              </li>
+            </ul>
+            <p style="margin:1.2rem 0 0;color:var(--muted);font-size:0.92rem;">Your files are private, stored securely, and deleted on request once the service is over.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="./">
+            <img src="assets/images/logo-mark.svg" alt="Funeral Pictorial logo">
+            <span>Funeral Pictorial<small>A life in pictures</small></span>
+          </a>
+          <p style="margin-top:1rem;max-width:320px;">Memorial slideshows crafted from your family's photos and videos, with TV delivery and setup for the service.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="upload">Upload Photos</a></li>
+            <li><a href="./#packages">Packages</a></li>
+            <li><a href="./#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li>Memorial slideshows</li>
+            <li>Photo scanning &amp; restoration</li>
+            <li>Video editing</li>
+            <li>TV delivery &amp; setup</li>
+            <li>Printed keepsakes</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+13125550147">(312) 555-0147</a></li>
+            <li><a href="mailto:hello@funeralpictorial.com">hello@funeralpictorial.com</a></li>
+            <li>Available 7 days, 7am – 9pm</li>
+            <li>Serving Chicagoland &amp; surrounding suburbs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Funeral Pictorial. All rights reserved.</span>
+        <span>Made with care for families in their hardest moments.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/uppy/uppy.min.js"></script>
+  <script src="assets/js/upload.js"></script>
+</body>
+</html>
