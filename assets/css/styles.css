@@ -843,3 +843,22 @@ p  { margin: 0 0 1em; }
 .uppy-c-btn-primary:hover { background: #a3852f !important; }
 .uppy-DashboardContent-bar { background: var(--white) !important; }
 .uppy-Dashboard-AddFiles-info { padding-bottom: 0.5rem; }
+
+/* ---------- FAQ (all answers visible) ---------- */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem;
+}
+.faq-item {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius-sm);
+  padding: 1.5rem 1.6rem 1.4rem;
+}
+.faq-item h3 { font-size: 1.35rem; margin-bottom: 0.5rem; }
+.faq-item p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+@media (max-width: 860px) {
+  .faq-grid { grid-template-columns: 1fr; }
+}
