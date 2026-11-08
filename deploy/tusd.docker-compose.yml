@@ -1,0 +1,38 @@
+# Upload server for the family portal (upload.html), built on tusd:
+# https://github.com/tus/tusd  (MIT licence, official tus server)
+#
+# In Coolify: New Resource -> Docker Compose -> paste this file.
+# Give it a domain such as uploads.funeralpictorial.com, then set
+# UPLOAD_ENDPOINT in assets/js/upload.js to https://uploads.funeralpictorial.com/files/
+#
+# Files are stored in the "uploads" volume on the server. For off-server storage
+# (Backblaze B2, Cloudflare R2, AWS S3) replace the -upload-dir flag with
+# -s3-bucket / -s3-endpoint and add AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY
+# as secret environment variables in Coolify. See the tusd docs.
+
+services:
+  tusd:
+    image: tusproject/tusd:v2.8.0
+    restart: unless-stopped
+    command:
+      - -port=8080
+      - -base-path=/files/
+      - -upload-dir=/srv/tusd-data
+      - -behind-proxy
+      - -max-size=4294967296          # 4 GB per file, matches upload.js
+      - -cors-allow-origin=https://funeralpictorial.com
+      - -cors-allow-headers=Upload-Metadata,Upload-Length,Upload-Offset,Tus-Resumable,Content-Type,X-Requested-With
+      - -cors-expose-headers=Upload-Offset,Location,Upload-Length,Tus-Version,Tus-Resumable,Tus-Max-Size,Tus-Extension,Upload-Metadata
+      - -hooks-enabled-events=post-finish
+      - -hooks-http=${NOTIFY_WEBHOOK:-}   # optional: a webhook (e.g. Zapier, n8n, your email script) called when each file completes
+    volumes:
+      - uploads:/srv/tusd-data
+    expose:
+      - "8080"
+    labels:
+      # Coolify's Traefik proxy picks up the domain you set in the UI;
+      # these labels just document the container port.
+      - "coolify.port=8080"
+
+volumes:
+  uploads:

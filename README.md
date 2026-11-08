@@ -75,3 +75,21 @@ To make it live you need a tus server to receive the files:
 
 Alternatives that need no custom server: a Nextcloud "File Drop" link, Pingvin Share's
 reverse-share links, or a Dropbox File Request. See the notes in the project chat.
+
+## Deploying with Coolify (Docker)
+
+The repo includes a `Dockerfile` that serves the site with nginx, keeping the clean
+`/about`, `/contact` and `/upload` addresses (`deploy/nginx.conf`), plus a health check at
+`/healthz`.
+
+1. In Coolify: **New Project → New Resource → Public/Private Repository**, pick this repo
+   and branch, Build Pack **Dockerfile**, port **80**.
+2. Set the domain (e.g. `https://funeralpictorial.com`). Coolify's proxy issues the TLS
+   certificate automatically once DNS points at the server.
+3. For the upload server: **New Resource → Docker Compose**, paste
+   `deploy/tusd.docker-compose.yml`, give it `https://uploads.funeralpictorial.com`, then
+   set `UPLOAD_ENDPOINT` in `assets/js/upload.js` to `https://uploads.funeralpictorial.com/files/`
+   and update the `-cors-allow-origin` flag to your site's domain.
+
+To test the container locally: `docker build -t fp-site . && docker run -p 8080:80 fp-site`,
+then open http://localhost:8080/about.
