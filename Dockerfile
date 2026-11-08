@@ -8,7 +8,7 @@ COPY deploy/nginx.conf /etc/nginx/conf.d/site.conf
 
 # Copy the site
 WORKDIR /usr/share/nginx/html
-COPY index.html about.html contact.html upload.html ./
+COPY index.html about.html contact.html upload.html 404.html ./
 COPY assets ./assets
 
 EXPOSE 80
